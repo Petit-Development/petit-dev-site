@@ -1,5 +1,6 @@
 .container {
   min-height: 100vh;
+  text-align: center;
   background-color:#4F4F4F;
   padding: 0;
   margin: 0;
@@ -16,6 +17,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #ffffffff;
 }
 
 .footer {

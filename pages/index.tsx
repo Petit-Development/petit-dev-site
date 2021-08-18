@@ -21,6 +21,9 @@ export default function Home() {
         <h2>
           <a className={styles.link} href="mailto: joshua@petit.dev">Email</a>
         </h2>
+        <h2>
+          <a className={styles.link} href="https://www.youtube.com/channel/UClo6j1DhtvHIKBPcsmCgWlg/featured">Youtube</a>
+        </h2>
       </main>
     </div>
   )

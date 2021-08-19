@@ -2,7 +2,7 @@
   min-height: 100vh;
   text-align: center;
   background-color: #4f4f4f;
-  padding: 0;
+  padding-top: 10px;
   font-family: Inconsolata;
   color: #ffffffff;
   margin: 0;
@@ -35,8 +35,14 @@
 
   line-height: 1.5;
   font-size: 1.5em;
-  margin-left: 4rem;
+  margin-left: 3rem;
   margin-right: 3rem;
+}
+
+@media (max-width: 600px) {
+  .description {
+    font-size: 13px;
+  }
 }
 
 
@@ -47,11 +53,4 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
 }

@@ -16,11 +16,13 @@ export default function Home() {
           </div>
       </div>
       <main className={styles.main}>
-        <div>
+        <div className={styles.video}>
           Gif/Video location
         </div>
         <div className={styles.info}>
+          <p>
           Information About what is on this Tab
+          </p>
         </div>
       </main>
       <footer className={styles.nav}>

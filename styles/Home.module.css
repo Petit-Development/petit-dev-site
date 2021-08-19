@@ -65,12 +65,21 @@
   background-size: cover;
 }
 
+.main .video {
+  margin: 4rem;
+  flex-basis: 40%;
+  flex: 2;
+  min-height: 30rem;
+  min-width: 30rem;
+  background-color: green;
+}
+
 .main .info {
+  flex-basis: 50%;
   width: 634px;
   height: 184px;
   left: 659px;
   top: 573px;
-  margin-left: auto;
 
   font-size: 36px;
   display: flex;

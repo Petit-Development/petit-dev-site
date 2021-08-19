@@ -34,8 +34,11 @@
 }
 
 .link {
-  color: #7f87bd;
-  text-decoration: underline;
+  color: #cfd3f1;
+}
+
+.link:hover {
+  cursor: pointer;
 }
 
 .description {
@@ -45,7 +48,7 @@
   flex-wrap: wrap;
   max-width: 1216px;
   line-height: 1.5;
-  font-size: 1.5em;
+  font-size: 2rem;
   margin-left: 3rem;
   margin-right: 3rem;
 }
@@ -63,6 +66,16 @@
   background-image: url("../public/cool_backdrop.svg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.main {
+  font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+  .main {
+    font-size: 1rem;
+  }
 }
 
 .main .video {
